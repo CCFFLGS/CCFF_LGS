@@ -261,7 +261,7 @@ function updateLostStates() {
     // Plus aucune position fiable : les deux colonnes basculent en alerte
     colStreet.classList.add("lost");
     colDfci.classList.add("lost");
-    bannerStreetTxt.textContent = "GPS PERDU";
+    bannerStreetTxt.textContent = "RÉSEAU PERDU";
     bannerDfciTxt.textContent = "GPS PERDU";
     const dots = document.querySelectorAll("#gpsDots i");
     dots.forEach(d => d.className = "");
